@@ -1,0 +1,25 @@
+{
+  "name": "acm_tailwind_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "prettier": "npx prettier --write **/*.html",
+    "tailwind": "npx tailwind -i ./src/input.css -o ./build/css/style.css",
+    "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devkovmtl/acm_tailwind_project.git"
+  },
+  "keywords": [],
+  "author": "dev.kov.mtl@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devkovmtl/acm_tailwind_project/issues"
+  },
+  "homepage": "https://github.com/devkovmtl/acm_tailwind_project#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  }
+}
